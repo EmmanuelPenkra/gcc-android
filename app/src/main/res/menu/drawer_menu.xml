@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_tag"
+            android:id="@+id/nav_businesses"
+            android:title="Businesses"/>
+        <item
+            android:icon="@drawable/ic_heart_1"
+            android:id="@+id/nav_favorites"
+            android:title="Favorites"/>
+        <item
+            android:icon="@drawable/ic_person"
+            android:id="@+id/nav_account"
+            android:title="User Account"/>
+        <item
+            android:icon="@drawable/ic_market"
+            android:id="@+id/nav_profile"
+            android:title="Business Profile"/>
+        <item
+            android:icon="@drawable/ic_scroll"
+            android:id="@+id/nav_payments"
+            android:title="Payment History"/>
+        <item
+            android:icon="@drawable/ic_question"
+            android:id="@+id/nav_help"
+            android:title="Help"/>
+    </group>
+</menu>

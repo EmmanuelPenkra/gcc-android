@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_marginBottom="12dp"
+        android:text="Create Your Account"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@drawable/input_dark"
+        android:height="50dp"
+        android:layout_marginBottom="12dp"
+        android:hint="Your First Name"
+        android:elevation="4dp"
+        android:id="@+id/fname_input"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:inputType="textPersonName|textCapWords"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@drawable/input_dark"
+        android:height="50dp"
+        android:layout_marginBottom="12dp"
+        android:hint="Your Last Name"
+        android:elevation="4dp"
+        android:id="@+id/lname_input"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:inputType="textPersonName|textCapWords"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@drawable/input_dark"
+        android:height="50dp"
+        android:layout_marginBottom="12dp"
+        android:hint="Your Email Address"
+        android:elevation="4dp"
+        android:id="@+id/email_input"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:inputType="textEmailAddress"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/button_dark"
+        android:id="@+id/continue_btn"
+        android:elevation="4dp"
+        android:text="Continue"/>
+</LinearLayout>

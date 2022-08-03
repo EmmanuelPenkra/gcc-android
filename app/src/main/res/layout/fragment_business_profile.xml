@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".BusinessProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/bis_image"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/round"
+            android:src="@drawable/ic_customer"
+            app:riv_oval="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Business Name" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bis_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="My Business LLC"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+<!--            <Button-->
+<!--                android:layout_width="75dp"-->
+<!--                android:layout_height="45dp"-->
+<!--                android:drawableTop="@drawable/pen"-->
+<!--                android:id="@+id/btn_name"-->
+<!--                android:textColor="@color/blue" />-->
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Category" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bis_category"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Business Category"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+<!--            <Button-->
+<!--                android:layout_width="75dp"-->
+<!--                android:layout_height="45dp"-->
+<!--                android:id="@+id/btn_category"-->
+<!--                android:drawableTop="@drawable/pen"-->
+<!--                android:textColor="@color/blue" />-->
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Business Location" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bis_location"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Location"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+<!--            <Button-->
+<!--                android:layout_width="75dp"-->
+<!--                android:layout_height="45dp"-->
+<!--                android:id="@+id/btn_location"-->
+<!--                android:drawableTop="@drawable/pen"-->
+<!--                android:textColor="@color/blue" />-->
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Business Email" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bis_email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="business@mail.com"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+<!--            <Button-->
+<!--                android:layout_width="75dp"-->
+<!--                android:layout_height="45dp"-->
+<!--                android:drawableTop="@drawable/pen"-->
+<!--                android:id="@+id/btn_email"-->
+<!--                android:textColor="@color/blue" />-->
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Phone Number" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bis_phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="0008000000"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+<!--            <Button-->
+<!--                android:layout_width="75dp"-->
+<!--                android:layout_height="45dp"-->
+<!--                android:drawableTop="@drawable/pen"-->
+<!--                android:id="@+id/btn_phone"-->
+<!--                android:textColor="@color/blue" />-->
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Business Description" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bis_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="4dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="45dp"
+                android:id="@+id/btn_description"
+                android:drawableTop="@drawable/pen"
+                android:textColor="@color/blue" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
